@@ -1,0 +1,64 @@
+# Base prompt template for coloring book pages
+# Use {subject} as placeholder for the main subject
+
+base_template: |
+  {subject}, black and white line art, coloring book page style,
+  clean outlines, no shading, no gradients, no fills,
+  intricate details suitable for adult coloring,
+  white background, crisp black lines, high contrast,
+  professional illustration quality
+
+# Alternative templates for different styles
+
+templates:
+  simple:
+    description: "Simple, bold lines for beginners or children"
+    template: |
+      {subject}, simple black and white line art, coloring book style,
+      bold clean outlines, no shading, no details, large areas to color,
+      white background, thick black lines
+
+  detailed:
+    description: "Highly detailed for advanced colorists"
+    template: |
+      {subject}, extremely detailed black and white line art,
+      adult coloring book page, intricate patterns, fine lines,
+      no shading, no gradients, white background,
+      professional illustration, zentangle inspired
+
+  zentangle:
+    description: "Zentangle pattern style"
+    template: |
+      {subject} filled with zentangle patterns, black and white line art,
+      meditative coloring page, intricate repetitive patterns,
+      no shading, white background, relaxing design
+
+  mandala:
+    description: "Mandala-style circular design"
+    template: |
+      {subject} mandala design, circular symmetrical pattern,
+      black and white line art, coloring book page,
+      intricate details, no shading, white background,
+      meditative art style
+
+  floral:
+    description: "Floral and botanical style"
+    template: |
+      {subject} with botanical floral elements, black and white line art,
+      garden style coloring page, flower patterns and leaves,
+      no shading, white background, nature illustration
+
+  geometric:
+    description: "Geometric pattern style"
+    template: |
+      {subject} with geometric patterns, black and white line art,
+      symmetrical design, angular shapes and lines,
+      no shading, white background, mathematical precision
+
+# Style modifiers that can be appended to any template
+style_modifiers:
+  - "vector art style"
+  - "hand-drawn illustration"
+  - "professional coloring book"
+  - "publishable quality"
+  - "print-ready artwork"

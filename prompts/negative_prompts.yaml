@@ -1,0 +1,50 @@
+# Negative prompts for coloring book line art
+# These help ensure clean black and white output
+
+negative_prompt: |
+  color, colored, colorful, shading, gradient, blur, blurry,
+  gray, grayscale fills, shadows, realistic, photograph,
+  3D render, painting style, watercolor, oil painting,
+  texture, noise, grain, low quality, low resolution,
+  pixelated, jpeg artifacts, compression artifacts,
+  dark background, colored background, busy background,
+  filled shapes, solid fills, halftone, screentone,
+  crosshatch shading, pencil shading, charcoal,
+  smudge, smeared, fuzzy lines, thick outlines,
+  cartoon style, anime style, manga style,
+  text, watermark, signature, logo, border text
+
+# Alternative negative prompts for specific use cases
+
+alternatives:
+  minimal:
+    description: "Minimal negative prompt for more creative freedom"
+    prompt: |
+      color, shading, gradient, blur, gray fills,
+      realistic photo, 3D render, low quality
+
+  strict:
+    description: "Strict negative prompt for pure line art"
+    prompt: |
+      color, colored, colorful, any color except black and white,
+      shading, gradient, blur, blurry, soft edges,
+      gray, grayscale, halftone, screentone, fills,
+      shadows, highlights, lighting effects,
+      realistic, photograph, photorealistic,
+      3D render, CGI, digital painting,
+      watercolor, oil painting, acrylic, gouache,
+      texture, noise, grain, film grain,
+      low quality, low resolution, pixelated,
+      dark background, colored background,
+      text, watermark, signature, logo,
+      anime, manga, cartoon, comic book style
+
+  print_ready:
+    description: "Optimized for print production"
+    prompt: |
+      color, colored, shading, gradient, blur,
+      gray fills, shadows, low resolution,
+      pixelated, jpeg artifacts, noise,
+      dark background, busy background,
+      thin lines, faint lines, broken lines,
+      smudge, bleed, offset, misaligned
