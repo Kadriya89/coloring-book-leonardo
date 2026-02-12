@@ -217,3 +217,12 @@ python scripts/postprocess_lineart.py outputs/coloring_book --binarize --remove-
 ## License
 
 MIT License - See LICENSE file for details.
+
+Generate 50+ print-ready coloring book pages using Leonardo AI's REST API. Produces high-quality black-and-white no * shading, no grayscale
+* Clean, bold outlines
+* Highly detailed but colorable
+* No text, no watermarks
+* Centered composition
+* Symmetrical where possible
+*  line art suitable for adult coloring books.
+  
